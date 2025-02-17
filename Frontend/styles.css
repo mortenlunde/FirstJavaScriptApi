@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff6f61, #ffb88c, #d8a0ff);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    min-height: 100vh;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.modal-content {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.action-btns {
+    display: flex;
+    gap: 0px;
+    align-items: right;
+}
+
+.action-btns button {
+    margin: 0 5px;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
